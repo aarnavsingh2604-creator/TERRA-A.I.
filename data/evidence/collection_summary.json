@@ -1,0 +1,757 @@
+{
+  "created_at_utc": "2026-11-14T08:17:58.036793+00:00",
+  "source": "NASA POWER",
+  "period": {
+    "start": 2020,
+    "end": 2024
+  },
+  "candidate_count": 124,
+  "collected_count": 124,
+  "failed_count": 0,
+  "results": [
+    {
+      "site_id": "TA-GRID-00001",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00001_nasa_power.json",
+      "cache_used": true
+    },
+    {
+      "site_id": "TA-GRID-00002",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00002_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00003",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00003_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00004",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00004_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00005",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00005_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00006",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00006_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00007",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00007_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00008",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00008_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00009",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00009_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00010",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00010_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00011",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00011_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00012",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00012_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00013",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00013_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00014",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00014_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00015",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00015_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00016",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00016_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00017",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00017_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00018",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00018_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00019",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00019_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00020",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00020_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00021",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00021_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00022",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00022_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00023",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00023_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00024",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00024_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00025",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00025_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00026",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00026_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00027",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00027_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00028",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00028_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00029",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00029_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00030",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00030_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00031",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00031_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00032",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00032_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00033",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00033_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00034",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00034_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00035",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00035_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00036",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00036_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00037",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00037_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00038",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00038_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00039",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00039_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00040",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00040_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00041",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00041_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00042",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00042_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00043",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00043_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00044",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00044_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00045",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00045_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00046",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00046_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00047",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00047_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00048",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00048_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00049",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00049_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00050",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00050_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00051",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00051_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00052",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00052_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00053",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00053_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00054",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00054_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00055",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00055_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00056",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00056_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00057",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00057_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00058",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00058_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00059",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00059_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00060",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00060_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00061",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00061_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00062",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00062_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00063",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00063_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00064",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00064_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00065",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00065_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00066",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00066_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00067",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00067_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00068",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00068_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00069",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00069_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00070",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00070_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00071",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00071_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00072",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00072_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00073",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00073_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00074",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00074_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00075",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00075_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00076",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00076_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00077",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00077_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00078",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00078_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00079",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00079_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00080",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00080_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00081",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00081_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00082",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00082_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00083",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00083_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00084",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00084_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00085",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00085_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00086",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00086_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00087",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00087_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00088",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00088_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00089",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00089_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00090",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00090_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00091",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00091_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00092",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00092_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00093",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00093_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00094",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00094_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00095",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00095_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00096",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00096_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00097",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00097_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00098",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00098_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00099",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00099_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00100",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00100_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00101",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00101_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00102",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00102_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00103",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00103_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00104",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00104_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00105",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00105_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00106",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00106_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00107",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00107_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00108",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00108_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00109",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00109_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00110",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00110_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00111",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00111_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00112",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00112_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00113",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00113_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00114",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00114_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00115",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00115_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00116",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00116_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00117",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00117_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00118",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00118_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00119",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00119_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00120",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00120_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00121",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00121_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00122",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00122_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00123",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00123_nasa_power.json",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00124",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\TA-GRID-00124_nasa_power.json",
+      "cache_used": false
+    }
+  ]
+}

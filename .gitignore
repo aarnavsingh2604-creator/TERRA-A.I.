@@ -1,0 +1,27 @@
+﻿.venv/
+venv/
+__pycache__/
+*.pyc
+
+.env
+.env.*
+!.env.example
+
+.streamlit/secrets.toml
+*.pem
+*.key
+
+data/*
+!data/candidates.csv
+!data/evidence/
+
+data/evidence/*
+!data/evidence/*.json
+!data/evidence/elevation/
+
+data/evidence/elevation/*
+!data/evidence/elevation/*.json
+
+# Local backup copies
+*.backup
+*_backup_*.py

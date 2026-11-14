@@ -1,0 +1,1004 @@
+{
+  "created_at_utc": "2026-11-14T09:20:21.777117+00:00",
+  "source": "Open-Meteo Elevation API",
+  "dataset": "Copernicus DEM GLO-90",
+  "candidate_count": 124,
+  "batch_count": 2,
+  "maximum_batch_size": 100,
+  "collected_count": 124,
+  "failed_count": 0,
+  "results": [
+    {
+      "site_id": "TA-GRID-00001",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00001_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00002",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00002_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00003",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00003_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00004",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00004_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00005",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00005_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00006",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00006_elevation.json",
+      "elevation_m": 29.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00007",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00007_elevation.json",
+      "elevation_m": 611.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00008",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00008_elevation.json",
+      "elevation_m": 561.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00009",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00009_elevation.json",
+      "elevation_m": 593.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00010",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00010_elevation.json",
+      "elevation_m": 554.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00011",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00011_elevation.json",
+      "elevation_m": 420.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00012",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00012_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00013",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00013_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00014",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00014_elevation.json",
+      "elevation_m": 7.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00015",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00015_elevation.json",
+      "elevation_m": 2.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00016",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00016_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00017",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00017_elevation.json",
+      "elevation_m": 66.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00018",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00018_elevation.json",
+      "elevation_m": 489.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00019",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00019_elevation.json",
+      "elevation_m": 255.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00020",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00020_elevation.json",
+      "elevation_m": 252.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00021",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00021_elevation.json",
+      "elevation_m": 268.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00022",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00022_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00023",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00023_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00024",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00024_elevation.json",
+      "elevation_m": 93.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00025",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00025_elevation.json",
+      "elevation_m": 118.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00026",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00026_elevation.json",
+      "elevation_m": 11.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00027",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00027_elevation.json",
+      "elevation_m": 10.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00028",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00028_elevation.json",
+      "elevation_m": 186.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00029",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00029_elevation.json",
+      "elevation_m": 545.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00030",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00030_elevation.json",
+      "elevation_m": 254.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00031",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00031_elevation.json",
+      "elevation_m": 331.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00032",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00032_elevation.json",
+      "elevation_m": 508.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00033",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00033_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00034",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00034_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00035",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00035_elevation.json",
+      "elevation_m": 12.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00036",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00036_elevation.json",
+      "elevation_m": 110.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00037",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00037_elevation.json",
+      "elevation_m": 17.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00038",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00038_elevation.json",
+      "elevation_m": 60.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00039",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00039_elevation.json",
+      "elevation_m": 361.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00040",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00040_elevation.json",
+      "elevation_m": 557.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00041",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00041_elevation.json",
+      "elevation_m": 549.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00042",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00042_elevation.json",
+      "elevation_m": 302.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00043",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00043_elevation.json",
+      "elevation_m": 0.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00044",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00044_elevation.json",
+      "elevation_m": 67.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00045",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00045_elevation.json",
+      "elevation_m": 2.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00046",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00046_elevation.json",
+      "elevation_m": 28.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00047",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00047_elevation.json",
+      "elevation_m": 39.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00048",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00048_elevation.json",
+      "elevation_m": 134.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00049",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00049_elevation.json",
+      "elevation_m": 229.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00050",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00050_elevation.json",
+      "elevation_m": 548.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00051",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00051_elevation.json",
+      "elevation_m": 460.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00052",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00052_elevation.json",
+      "elevation_m": 460.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00053",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00053_elevation.json",
+      "elevation_m": 418.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00054",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00054_elevation.json",
+      "elevation_m": 5.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00055",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00055_elevation.json",
+      "elevation_m": 19.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00056",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00056_elevation.json",
+      "elevation_m": 50.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00057",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00057_elevation.json",
+      "elevation_m": 24.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00058",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00058_elevation.json",
+      "elevation_m": 234.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00059",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00059_elevation.json",
+      "elevation_m": 919.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00060",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00060_elevation.json",
+      "elevation_m": 452.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00061",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00061_elevation.json",
+      "elevation_m": 432.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00062",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00062_elevation.json",
+      "elevation_m": 401.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00063",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00063_elevation.json",
+      "elevation_m": 500.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00064",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00064_elevation.json",
+      "elevation_m": 85.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00065",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00065_elevation.json",
+      "elevation_m": 16.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00066",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00066_elevation.json",
+      "elevation_m": 48.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00067",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00067_elevation.json",
+      "elevation_m": 188.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00068",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00068_elevation.json",
+      "elevation_m": 86.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00069",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00069_elevation.json",
+      "elevation_m": 206.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00070",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00070_elevation.json",
+      "elevation_m": 625.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00071",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00071_elevation.json",
+      "elevation_m": 361.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00072",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00072_elevation.json",
+      "elevation_m": 240.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00073",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00073_elevation.json",
+      "elevation_m": 401.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00074",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00074_elevation.json",
+      "elevation_m": 348.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00075",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00075_elevation.json",
+      "elevation_m": 28.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00076",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00076_elevation.json",
+      "elevation_m": 39.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00077",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00077_elevation.json",
+      "elevation_m": 140.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00078",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00078_elevation.json",
+      "elevation_m": 234.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00079",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00079_elevation.json",
+      "elevation_m": 197.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00080",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00080_elevation.json",
+      "elevation_m": 243.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00081",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00081_elevation.json",
+      "elevation_m": 449.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00082",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00082_elevation.json",
+      "elevation_m": 307.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00083",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00083_elevation.json",
+      "elevation_m": 225.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00084",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00084_elevation.json",
+      "elevation_m": 193.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00085",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00085_elevation.json",
+      "elevation_m": 44.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00086",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00086_elevation.json",
+      "elevation_m": 54.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00087",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00087_elevation.json",
+      "elevation_m": 77.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00088",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00088_elevation.json",
+      "elevation_m": 144.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00089",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00089_elevation.json",
+      "elevation_m": 258.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00090",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00090_elevation.json",
+      "elevation_m": 294.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00091",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00091_elevation.json",
+      "elevation_m": 295.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00092",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00092_elevation.json",
+      "elevation_m": 446.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00093",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00093_elevation.json",
+      "elevation_m": 429.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00094",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00094_elevation.json",
+      "elevation_m": 212.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00095",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00095_elevation.json",
+      "elevation_m": 55.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00096",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00096_elevation.json",
+      "elevation_m": 71.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00097",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00097_elevation.json",
+      "elevation_m": 98.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00098",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00098_elevation.json",
+      "elevation_m": 111.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00099",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00099_elevation.json",
+      "elevation_m": 164.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00100",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00100_elevation.json",
+      "elevation_m": 229.0,
+      "cache_used": false,
+      "batch_number": 1
+    },
+    {
+      "site_id": "TA-GRID-00101",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00101_elevation.json",
+      "elevation_m": 319.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00102",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00102_elevation.json",
+      "elevation_m": 354.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00103",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00103_elevation.json",
+      "elevation_m": 255.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00104",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00104_elevation.json",
+      "elevation_m": 193.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00105",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00105_elevation.json",
+      "elevation_m": 94.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00106",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00106_elevation.json",
+      "elevation_m": 621.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00107",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00107_elevation.json",
+      "elevation_m": 107.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00108",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00108_elevation.json",
+      "elevation_m": 100.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00109",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00109_elevation.json",
+      "elevation_m": 126.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00110",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00110_elevation.json",
+      "elevation_m": 154.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00111",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00111_elevation.json",
+      "elevation_m": 192.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00112",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00112_elevation.json",
+      "elevation_m": 212.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00113",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00113_elevation.json",
+      "elevation_m": 218.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00114",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00114_elevation.json",
+      "elevation_m": 227.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00115",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00115_elevation.json",
+      "elevation_m": 955.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00116",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00116_elevation.json",
+      "elevation_m": 1081.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00117",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00117_elevation.json",
+      "elevation_m": 114.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00118",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00118_elevation.json",
+      "elevation_m": 121.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00119",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00119_elevation.json",
+      "elevation_m": 141.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00120",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00120_elevation.json",
+      "elevation_m": 171.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00121",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00121_elevation.json",
+      "elevation_m": 199.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00122",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00122_elevation.json",
+      "elevation_m": 223.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00123",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00123_elevation.json",
+      "elevation_m": 251.0,
+      "cache_used": false,
+      "batch_number": 2
+    },
+    {
+      "site_id": "TA-GRID-00124",
+      "status": "collected",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\elevation\\TA-GRID-00124_elevation.json",
+      "elevation_m": 269.0,
+      "cache_used": false,
+      "batch_number": 2
+    }
+  ]
+}

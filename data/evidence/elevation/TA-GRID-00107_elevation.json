@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "site_id": "TA-GRID-00107",
+  "site_name": "Unassessed Earth grid candidate 107",
+  "requested_location": {
+    "latitude": 28.993204,
+    "longitude": 70.056348
+  },
+  "measurement": {
+    "variable": "elevation",
+    "value": 107.0,
+    "units": "m",
+    "dataset": "Copernicus DEM GLO-90",
+    "note": "Elevation is preserved in metres as returned by Open-Meteo. A null value means no elevation value was returned for this coordinate."
+  },
+  "source": {
+    "name": "Open-Meteo Elevation API",
+    "api": "https://api.open-meteo.com/v1/elevation",
+    "dataset": "Copernicus DEM GLO-90",
+    "nominal_resolution": "90 m",
+    "request_url": "https://api.open-meteo.com/v1/elevation?latitude=28.093883%2C28.093883%2C28.093883%2C28.093883%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C29.892524%2C29.892524%2C29.892524%2C29.892524%2C29.892524%2C29.892524%2C29.892524%2C29.892524%2C29.892524%2C29.892524&longitude=74.626314%2C75.645746%2C76.665179%2C77.684612%2C68.000000%2C69.028174%2C70.056348%2C71.084522%2C72.112696%2C73.140870%2C74.169044%2C75.197218%2C76.225392%2C77.253566%2C68.518662%2C69.555986%2C70.593310%2C71.630634%2C72.667959%2C73.705283%2C74.742607%2C75.779931%2C76.817255%2C77.854579",
+    "retrieved_at_utc": "2026-11-14T09:20:21.651166+00:00",
+    "cache_used": false,
+    "batch_number": 2,
+    "batch_size": 24,
+    "response_index": 6,
+    "generationtime_ms": null
+  },
+  "interpretation_limits": [
+    "Elevation is one terrain attribute, not a terrain score.",
+    "Elevation alone does not establish slope, roughness, surface hazards, or site suitability.",
+    "DEM-derived elevation is not a field survey measurement.",
+    "The nominal 90 m dataset resolution does not imply 90 m positional or vertical accuracy at every location."
+  ]
+}
