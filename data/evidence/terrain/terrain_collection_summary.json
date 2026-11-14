@@ -1,0 +1,757 @@
+{
+  "created_at_utc": "2026-11-14T12:11:27.122473+00:00",
+  "source": "Open-Meteo Elevation API",
+  "dataset": "Copernicus DEM GLO-90",
+  "candidate_count": 124,
+  "neighbour_samples_requested": 992,
+  "api_batch_count": 10,
+  "complete_count": 124,
+  "incomplete_count": 0,
+  "failed_or_null_neighbour_samples": 0,
+  "results": [
+    {
+      "site_id": "TA-GRID-00001",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00001_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00002",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00002_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00003",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00003_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00004",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00004_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00005",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00005_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00006",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00006_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00007",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00007_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00008",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00008_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00009",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00009_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00010",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00010_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00011",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00011_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00012",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00012_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00013",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00013_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00014",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00014_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00015",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00015_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00016",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00016_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00017",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00017_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00018",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00018_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00019",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00019_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00020",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00020_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00021",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00021_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00022",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00022_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00023",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00023_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00024",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00024_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00025",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00025_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00026",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00026_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00027",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00027_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00028",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00028_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00029",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00029_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00030",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00030_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00031",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00031_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00032",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00032_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00033",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00033_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00034",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00034_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00035",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00035_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00036",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00036_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00037",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00037_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00038",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00038_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00039",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00039_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00040",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00040_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00041",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00041_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00042",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00042_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00043",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00043_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00044",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00044_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00045",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00045_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00046",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00046_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00047",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00047_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00048",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00048_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00049",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00049_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00050",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00050_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00051",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00051_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00052",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00052_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00053",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00053_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00054",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00054_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00055",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00055_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00056",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00056_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00057",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00057_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00058",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00058_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00059",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00059_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00060",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00060_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00061",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00061_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00062",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00062_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00063",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00063_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00064",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00064_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00065",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00065_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00066",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00066_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00067",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00067_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00068",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00068_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00069",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00069_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00070",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00070_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00071",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00071_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00072",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00072_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00073",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00073_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00074",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00074_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00075",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00075_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00076",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00076_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00077",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00077_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00078",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00078_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00079",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00079_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00080",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00080_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00081",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00081_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00082",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00082_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00083",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00083_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00084",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00084_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00085",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00085_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00086",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00086_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00087",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00087_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00088",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00088_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00089",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00089_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00090",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00090_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00091",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00091_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00092",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00092_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00093",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00093_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00094",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00094_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00095",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00095_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00096",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00096_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00097",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00097_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00098",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00098_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00099",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00099_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00100",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00100_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00101",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00101_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00102",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00102_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00103",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00103_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00104",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00104_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00105",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00105_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00106",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00106_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00107",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00107_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00108",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00108_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00109",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00109_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00110",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00110_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00111",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00111_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00112",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00112_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00113",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00113_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00114",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00114_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00115",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00115_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00116",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00116_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00117",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00117_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00118",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00118_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00119",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00119_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00120",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00120_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00121",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00121_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00122",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00122_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00123",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00123_terrain.json",
+      "metrics_available": true
+    },
+    {
+      "site_id": "TA-GRID-00124",
+      "status": "complete",
+      "file": "C:\\Users\\aarna\\Downloads\\TERRA_AI_Full_Integrated\\TERRA_AI_Full_Integrated\\data\\evidence\\terrain\\TA-GRID-00124_terrain.json",
+      "metrics_available": true
+    }
+  ]
+}

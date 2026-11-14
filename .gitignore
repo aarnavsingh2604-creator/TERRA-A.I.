@@ -25,3 +25,8 @@ data/evidence/elevation/*
 # Local backup copies
 *.backup
 *_backup_*.py
+
+# Terrain evidence records
+!data/evidence/terrain/
+data/evidence/terrain/*
+!data/evidence/terrain/*.json

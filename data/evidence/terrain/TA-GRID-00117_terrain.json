@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "site_id": "TA-GRID-00117",
+  "site_name": "Unassessed Earth grid candidate 117",
+  "status": "complete",
+  "method": {
+    "description": "One centre elevation and eight surrounding elevation samples arranged in a 3x3 grid.",
+    "nominal_spacing_m": 90.0,
+    "slope_method": "Least-squares local plane",
+    "ruggedness_method": "Mean absolute elevation difference between the eight neighbours and centre."
+  },
+  "samples": [
+    {
+      "sample_id": "C",
+      "dx_m": 0.0,
+      "dy_m": 0.0,
+      "latitude": 29.892524,
+      "longitude": 70.59331,
+      "elevation_m": 114.0,
+      "source": "Existing elevation record"
+    },
+    {
+      "site_id": "TA-GRID-00117",
+      "sample_id": "E",
+      "dx_m": 90.0,
+      "dy_m": 0.0,
+      "latitude": 29.892524,
+      "longitude": 70.59424254405421,
+      "elevation_m": 114.0,
+      "source": "Open-Meteo Elevation API",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00117",
+      "sample_id": "N",
+      "dx_m": 0.0,
+      "dy_m": 90.0,
+      "latitude": 29.893332480057495,
+      "longitude": 70.59331,
+      "elevation_m": 114.0,
+      "source": "Open-Meteo Elevation API",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00117",
+      "sample_id": "NE",
+      "dx_m": 90.0,
+      "dy_m": 90.0,
+      "latitude": 29.893332480057495,
+      "longitude": 70.59424254405421,
+      "elevation_m": 114.0,
+      "source": "Open-Meteo Elevation API",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00117",
+      "sample_id": "NW",
+      "dx_m": -90.0,
+      "dy_m": 90.0,
+      "latitude": 29.893332480057495,
+      "longitude": 70.5923774559458,
+      "elevation_m": 114.0,
+      "source": "Open-Meteo Elevation API",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00117",
+      "sample_id": "S",
+      "dx_m": 0.0,
+      "dy_m": -90.0,
+      "latitude": 29.891715519942508,
+      "longitude": 70.59331,
+      "elevation_m": 114.0,
+      "source": "Open-Meteo Elevation API",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00117",
+      "sample_id": "SE",
+      "dx_m": 90.0,
+      "dy_m": -90.0,
+      "latitude": 29.891715519942508,
+      "longitude": 70.59424254405421,
+      "elevation_m": 114.0,
+      "source": "Open-Meteo Elevation API",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00117",
+      "sample_id": "SW",
+      "dx_m": -90.0,
+      "dy_m": -90.0,
+      "latitude": 29.891715519942508,
+      "longitude": 70.5923774559458,
+      "elevation_m": 114.0,
+      "source": "Open-Meteo Elevation API",
+      "cache_used": false
+    },
+    {
+      "site_id": "TA-GRID-00117",
+      "sample_id": "W",
+      "dx_m": -90.0,
+      "dy_m": 0.0,
+      "latitude": 29.892524,
+      "longitude": 70.5923774559458,
+      "elevation_m": 114.0,
+      "source": "Open-Meteo Elevation API",
+      "cache_used": false
+    }
+  ],
+  "terrain_metrics": {
+    "slope_degrees": 0.0,
+    "local_relief_m": 0.0,
+    "elevation_stddev_m": 0.0,
+    "ruggedness_proxy_m": 0.0,
+    "sample_count": 9
+  },
+  "source": {
+    "name": "Open-Meteo Elevation API",
+    "dataset": "Copernicus DEM GLO-90",
+    "nominal_resolution": "90 m",
+    "generated_at_utc": "2026-11-14T12:11:27.089307+00:00",
+    "centre_source": {
+      "name": "Open-Meteo Elevation API",
+      "api": "https://api.open-meteo.com/v1/elevation",
+      "dataset": "Copernicus DEM GLO-90",
+      "nominal_resolution": "90 m",
+      "request_url": "https://api.open-meteo.com/v1/elevation?latitude=28.093883%2C28.093883%2C28.093883%2C28.093883%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C28.993204%2C29.892524%2C29.892524%2C29.892524%2C29.892524%2C29.892524%2C29.892524%2C29.892524%2C29.892524%2C29.892524%2C29.892524&longitude=74.626314%2C75.645746%2C76.665179%2C77.684612%2C68.000000%2C69.028174%2C70.056348%2C71.084522%2C72.112696%2C73.140870%2C74.169044%2C75.197218%2C76.225392%2C77.253566%2C68.518662%2C69.555986%2C70.593310%2C71.630634%2C72.667959%2C73.705283%2C74.742607%2C75.779931%2C76.817255%2C77.854579",
+      "retrieved_at_utc": "2026-11-14T09:20:21.651166+00:00",
+      "cache_used": false,
+      "batch_number": 2,
+      "batch_size": 24,
+      "response_index": 16,
+      "generationtime_ms": null
+    }
+  },
+  "interpretation_limits": [
+    "Metrics are DEM-derived estimates, not field surveys.",
+    "Nominal sample spacing does not guarantee independent 90 m terrain pixels or 90 m positional accuracy.",
+    "Ruggedness proxy is a project-defined indicator, not a standardized terrain ruggedness index.",
+    "Nine samples cannot identify every local landform or engineering hazard.",
+    "Elevation values near zero do not establish whether a location is land or ocean.",
+    "Terrain metrics do not establish site suitability."
+  ]
+}
