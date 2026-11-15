@@ -49,20 +49,70 @@ def home():
 def health():
     return jsonify({"status": "online"})
 
+PLANETARY_REFERENCE_POINTS = {
+    "Mars": [
+        {"id": "MARS-001", "name": "Jezero Crater", "latitude": 18.38, "longitude": 77.58, "status": "REFERENCE LOCATION"},
+        {"id": "MARS-002", "name": "Gale Crater", "latitude": -5.40, "longitude": 137.80, "status": "REFERENCE LOCATION"},
+        {"id": "MARS-003", "name": "Olympus Mons", "latitude": 18.65, "longitude": -133.80, "status": "REFERENCE LOCATION"},
+        {"id": "MARS-004", "name": "Valles Marineris", "latitude": -13.90, "longitude": -59.20, "status": "REFERENCE LOCATION"},
+        {"id": "MARS-005", "name": "Hellas Planitia", "latitude": -42.40, "longitude": 70.50, "status": "REFERENCE LOCATION"},
+        {"id": "MARS-006", "name": "Elysium Planitia", "latitude": 4.50, "longitude": 135.90, "status": "REFERENCE LOCATION"},
+        {"id": "MARS-007", "name": "Arcadia Planitia", "latitude": 46.00, "longitude": 180.00, "status": "REFERENCE LOCATION"}
+    ],
+    "Moon": [
+        {"id": "MOON-001", "name": "Mare Tranquillitatis", "latitude": 8.50, "longitude": 31.40, "status": "REFERENCE LOCATION"},
+        {"id": "MOON-002", "name": "Oceanus Procellarum", "latitude": 18.40, "longitude": -57.40, "status": "REFERENCE LOCATION"},
+        {"id": "MOON-003", "name": "Tycho Crater", "latitude": -43.30, "longitude": -11.20, "status": "REFERENCE LOCATION"},
+        {"id": "MOON-004", "name": "Copernicus Crater", "latitude": 9.70, "longitude": -20.10, "status": "REFERENCE LOCATION"},
+        {"id": "MOON-005", "name": "Mare Imbrium", "latitude": 32.80, "longitude": -15.60, "status": "REFERENCE LOCATION"},
+        {"id": "MOON-006", "name": "South Pole-Aitken Basin", "latitude": -53.00, "longitude": 169.00, "status": "REFERENCE LOCATION"},
+        {"id": "MOON-007", "name": "Aristarchus Plateau", "latitude": 23.70, "longitude": -47.40, "status": "REFERENCE LOCATION"}
+    ]
+}
+
 @app.post("/api/screen")
 def screen():
+    data = request.get_json(silent=True) or {}
+    target = data.get("target", "Mars")
+
+    if target not in PLANETARY_REFERENCE_POINTS:
+        return jsonify({"error": "Unsupported planetary target"}), 400
+
+    points = PLANETARY_REFERENCE_POINTS[target]
+
+    return jsonify({
+        "planetary_target": target,
+        "screened_reference_points": len(points),
+        "points": points
+    })
+
+
+@app.get("/api/planetary/measurements")
+def planetary_measurements():
+    target = request.args.get("target", "Mars")
+    if target not in ("Mars", "Moon"):
+        return jsonify({"error": "target must be Mars or Moon"}), 400
+
+    measurement_file = PROJECT_ROOT / "data" / "planetary_scientific_measurements.json"
+    if not measurement_file.exists():
+        return jsonify({"error": "Planetary measurements file not found"}), 404
+
     try:
-        data = request.get_json(silent=True) or {}
-        points = generate_earth_grid(
-            data.get("bbox", {}),
-            data.get("spacing_km", 100),
-            data.get("max_points", 5000)
+        payload = __import__("json").loads(
+            measurement_file.read_text(encoding="utf-8")
         )
-        return jsonify({"planetary_target": data.get("target", "Mars"),
-                        "screened_earth_grid_points": len(points),
-                        "points": points})
-    except (ValueError, TypeError) as exc:
-        return jsonify({"error": str(exc)}), 400
+        records = [
+            item for item in payload.get("measurements", [])
+            if item.get("planet") == target
+        ]
+        return jsonify({
+            "planetary_target": target,
+            "count": len(records),
+            "dataset": payload.get("dataset"),
+            "measurements": records
+        })
+    except (ValueError, OSError) as exc:
+        return jsonify({"error": "Could not read measurements", "details": str(exc)}), 500
 
 @app.get("/api/imagery/search")
 def imagery_search():
