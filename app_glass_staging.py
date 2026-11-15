@@ -48,7 +48,7 @@ def load_data():
 
 st.markdown(r"""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 :root{--ice:#a8edff;--cyan:#5bdcf4;--muted:#a9bed2;--glass:rgba(16,31,52,.53);--line:rgba(174,224,255,.19)}
 .stApp{background:radial-gradient(ellipse at 49% 20%,rgba(37,105,149,.28),transparent 38%),radial-gradient(ellipse at 8% 75%,rgba(37,89,142,.18),transparent 35%),linear-gradient(145deg,#050a13 0%,#081321 48%,#050912 100%);color:#edf7ff;font-family:'DM Sans',sans-serif}
 .block-container{max-width:1780px;padding:1.0rem 1.35rem 2rem}
@@ -76,7 +76,7 @@ h1,h2,h3=st.columns([1.25,2.2,1.0],vertical_alignment="center")
 with h1:
     st.markdown('<div class="brandline"><div class="brandmark">ðŸŒ</div><div><div class="eyebrow">Planetary intelligence</div><div class="terra-brand" style="font-size:24px;font-weight:700">TERRA <span style="color:#71e5f8">AI</span></div></div></div>',unsafe_allow_html=True)
 with h2:
-    st.markdown('<div style="text-align:center"><div class="eyebrow">Earth analog discovery Â· mission research interface</div><div style="font-family:Space Grotesk;font-size:13px;color:#c3d8e9;margin-top:5px">Observe Earth. Understand other worlds.</div></div>',unsafe_allow_html=True)
+    st.markdown('<div style="text-align:center"><div class="eyebrow">Earth analog discovery · mission research interface</div><div style="font-family:Space Grotesk;font-size:13px;color:#c3d8e9;margin-top:5px">Observe Earth. Understand other worlds.</div></div>',unsafe_allow_html=True)
 with h3:
     target=st.selectbox("MISSION TARGET",["Mars","Moon"],label_visibility="collapsed",key="mission_target")
 # Load planetary reference locations directly inside Streamlit.
@@ -125,7 +125,7 @@ ctl1,ctl2,ctl3,ctl4=st.columns([1.35,1.5,1.35,1.0])
 with ctl1: objective=st.selectbox("Research objective",list(OBJECTIVE_WEIGHTS),label_visibility="collapsed")
 with ctl2: min_coverage=st.slider("Minimum data coverage",0,100,0,5,label_visibility="collapsed")
 with ctl3: hide_protected=st.checkbox("Hide protected-area flags",value=False)
-with ctl4: run_ranking=st.button("âœ¦ Run ranking",use_container_width=True)
+with ctl4: run_ranking=st.button("✦ Run ranking",use_container_width=True)
 
 # Service health indicators
 try: b1_ok=requests.get(f"{BACKEND1_URL}/api/health",timeout=1.2).ok
@@ -134,7 +134,7 @@ try: b2_ok=requests.get(f"{BACKEND2_URL}/api/health",timeout=1.2).ok
 except requests.RequestException: b2_ok=False
 status1="CONNECTED" if b1_ok else "LOCAL / OFFLINE"
 status2="CONNECTED" if b2_ok else "LOCAL / OFFLINE"
-st.markdown(f'<div style="display:flex;gap:8px;justify-content:flex-end;margin:2px 2px 12px"><span class="pill">â— IMAGERY + PDS Â· {status1}</span><span class="pill">â— SCIENCE ENGINE Â· {status2}</span><span class="pill">TARGET Â· {target.upper()}</span></div>',unsafe_allow_html=True)
+st.markdown(f'<div style="display:flex;gap:8px;justify-content:flex-end;margin:2px 2px 12px"><span class="pill">● IMAGERY + PDS · {status1}</span><span class="pill">● SCIENCE ENGINE · {status2}</span><span class="pill">TARGET · {target.upper()}</span></div>',unsafe_allow_html=True)
 
 try: df=load_data()
 except Exception as exc: st.error(f"Candidate data could not be loaded: {exc}"); st.stop()
@@ -213,7 +213,7 @@ if not ranked_live:
         available={k:w for k,w in weights.items() if pd.notna(r.get(k))}; denom=sum(available.values())
         return sum(float(r[k])*w for k,w in available.items())/denom if denom else float("nan")
     df["analog_score"]=df.apply(partial_score,axis=1)
-    st.caption("LOCAL PARTIAL INDEX Â· illustrative until the scientific backend returns an evidence-backed ranking")
+    st.caption("LOCAL PARTIAL INDEX · illustrative until the scientific backend returns an evidence-backed ranking")
 
 filtered=df[df["data_coverage"].fillna(0)>=min_coverage].copy()
 if hide_protected: filtered=filtered[filtered["protected_area"].ne(True).fillna(True)]
@@ -226,7 +226,7 @@ with left:
     st.markdown(
         '<div class="glass-panel"><div class="eyebrow">Field intelligence</div>'
         '<h3>Candidate sites</h3>'
-        '<div class="muted">Assessment status ? validated scores only</div></div>',
+        '<div class="muted">Assessment status  validated scores only</div></div>',
         unsafe_allow_html=True
     )
     if len(filtered):
@@ -240,7 +240,7 @@ with left:
                 '<span class="big-value" style="font-size:17px">AWAITING DATA</span>'
             )
             location = (
-                f"{r.latitude:.2f}?, {r.longitude:.2f}?"
+                f"{r.latitude:.2f}, {r.longitude:.2f}"
                 if pd.notna(r.latitude) and pd.notna(r.longitude)
                 else "Coordinates unavailable"
             )
@@ -251,7 +251,7 @@ with left:
                 f'<span class="tiny">{r.site_id}</span>'
                 f'<span class="pill">{status}</span></div>'
                 f'<div style="font-weight:650;color:#eaf7ff;margin:5px 0">{r.site_name}</div>'
-                f'<div class="muted">{country} ? {location}</div>'
+                f'<div class="muted">{country}  {location}</div>'
                 f'<div style="display:flex;justify-content:space-between;align-items:end;margin-top:10px">'
                 f'<span class="tiny">{"Analog index" if assessed else "Suitability assessment"}</span>'
                 f'{score}</div></div>',
@@ -266,7 +266,7 @@ with left:
     st.markdown('<div class="glass-panel" style="margin-top:10px"><div class="eyebrow">Mission objective</div><div style="font-size:13px;color:#d9eaf6;margin-top:6px">'+objective+'</div><div class="rule"></div><div class="muted">Protected-area flags are separate safeguards and are never cancelled by a high analog score.</div></div>',unsafe_allow_html=True)
 
 with center:
-    st.markdown('<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 5px 0"><div><div class="eyebrow">Orbital view Â· interactive globe</div><div style="font-family:Space Grotesk;font-size:19px;color:#eefaff;font-weight:600">Earth analog field</div></div><span class="pill">DRAG TO ROTATE Â· SCROLL TO ZOOM</span></div>',unsafe_allow_html=True)
+    st.markdown('<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 5px 0"><div><div class="eyebrow">Orbital view · interactive globe</div><div style="font-family:Space Grotesk;font-size:19px;color:#eefaff;font-weight:600">Earth analog field</div></div><span class="pill">DRAG TO ROTATE · SCROLL TO ZOOM</span></div>',unsafe_allow_html=True)
     globe = go.Figure(go.Scattergeo(
         lon=[point["longitude"] for point in planetary_points],
         lat=[point["latitude"] for point in planetary_points],
@@ -275,7 +275,7 @@ with center:
         mode="markers",
         marker=dict(size=10, color="#ffb347", line=dict(width=1, color="#fff0cf")),
         name=f"{target} reference locations",
-        hovertemplate="<b>%{text}</b><br>Latitude: %{lat:.2f}?<br>Longitude: %{lon:.2f}?<br>ID: %{customdata[0]}<br>%{customdata[1]}<extra></extra>"
+        hovertemplate="<b>%{text}</b><br>Latitude: %{lat:.2f}<br>Longitude: %{lon:.2f}<br>ID: %{customdata[0]}<br>%{customdata[1]}<extra></extra>"
     ))
 
     globe.update_geos(
@@ -303,7 +303,7 @@ with center:
     )
     st.caption(f"Showing {len(planetary_points)} named {target} reference locations. Hover over markers for details. The base globe is illustrative, not a surface map of {target}.")
 
-    with st.expander("??? Topographic measurements ? NASA", expanded=True):
+    with st.expander(" Topographic measurements  NASA", expanded=True):
         if planetary_measurements_data:
             measurement_df = pd.DataFrame(planetary_measurements_data)
             display_columns = [
@@ -328,13 +328,13 @@ with center:
             st.info("No planetary elevation measurements are currently available.")
 
     k1,k2,k3=st.columns(3)
-    k1.metric("Candidates in view",len(filtered));k2.metric("Best analog index",f"{filtered.analog_score.max():.1f}" if len(filtered) and pd.notna(filtered.analog_score.max()) else "â€”");k3.metric("Evidence coverage",f"{filtered.data_coverage.mean():.0f}%" if len(filtered) and filtered.data_coverage.notna().any() else "â€”")
+    k1.metric("Candidates in view",len(filtered));k2.metric("Best analog index",f"{filtered.analog_score.max():.1f}" if len(filtered) and pd.notna(filtered.analog_score.max()) else "—");k3.metric("Evidence coverage",f"{filtered.data_coverage.mean():.0f}%" if len(filtered) and filtered.data_coverage.notna().any() else "—")
 
 with right:
     st.markdown('<div class="glass-panel"><div class="eyebrow">Mission telemetry</div><h3>Research parameters</h3><div class="rule"></div><div class="tiny">Target body</div><div class="big-value">'+target+'</div><div class="rule"></div><div class="tiny">Research mode</div><div style="font-size:13px;color:#d9eaf6;margin-top:4px">'+objective+'</div><div class="rule"></div><div class="tiny">Active candidate set</div><div class="big-value">'+str(len(filtered))+'</div><div class="muted">sites currently visible</div></div>',unsafe_allow_html=True)
     if len(filtered):
         top=filtered.iloc[0]
-        st.markdown('<div class="glass-panel" style="margin-top:10px"><div class="eyebrow">Selected signal</div><h3>Leading analog</h3><div style="font-size:15px;color:#effaff;font-weight:650">'+str(top.site_name)+'</div><div class="muted">'+str(top.country)+'</div><div style="font-family:Space Grotesk;font-size:34px;color:#9cecff;margin:9px 0">'+(f"{top.analog_score:.1f}" if pd.notna(top.analog_score) else "â€”")+'<span style="font-size:12px;color:#9bb5c9"> / 100</span></div><div class="muted">'+str(top.ecology_warning)+'</div></div>',unsafe_allow_html=True)
+        st.markdown('<div class="glass-panel" style="margin-top:10px"><div class="eyebrow">Selected signal</div><h3>Leading analog</h3><div style="font-size:15px;color:#effaff;font-weight:650">'+str(top.site_name)+'</div><div class="muted">'+str(top.country)+'</div><div style="font-family:Space Grotesk;font-size:34px;color:#9cecff;margin:9px 0">'+(f"{top.analog_score:.1f}" if pd.notna(top.analog_score) else "—")+'<span style="font-size:12px;color:#9bb5c9"> / 100</span></div><div class="muted">'+str(top.ecology_warning)+'</div></div>',unsafe_allow_html=True)
     st.markdown('<div class="glass-panel" style="margin-top:10px"><div class="eyebrow">Scoring model</div><h3>Weighted dimensions</h3></div>',unsafe_allow_html=True)
     weight_df=pd.DataFrame({"Dimension":[SCORE_LABELS[k] for k in weights],"Weight":[v*100 for v in weights.values()]})
     wf=px.bar(weight_df,x="Weight",y="Dimension",orientation="h",range_x=[0,55],text="Weight")
@@ -464,11 +464,11 @@ with bottom3:
     else: st.info("No candidate data to compare.")
 
 # Full candidate detail and transparent formula
-with st.expander("Candidate detail Â· evidence, safeguards and score breakdown"):
+with st.expander("Candidate detail · evidence, safeguards and score breakdown"):
     if len(filtered):
-        choices=filtered.site_id.astype(str).tolist();chosen=st.selectbox("Select candidate",choices,format_func=lambda x:f"{x} Â· {filtered.loc[filtered.site_id.astype(str)==x,'site_name'].iloc[0]}")
+        choices=filtered.site_id.astype(str).tolist();chosen=st.selectbox("Select candidate",choices,format_func=lambda x:f"{x} · {filtered.loc[filtered.site_id.astype(str)==x,'site_name'].iloc[0]}")
         r=filtered.loc[filtered.site_id.astype(str)==chosen].iloc[0]
-        st.subheader(str(r.site_name));st.write(r.summary);st.write(f"Coordinates: {r.latitude}, {r.longitude} Â· {r.country}")
+        st.subheader(str(r.site_name));st.write(r.summary);st.write(f"Coordinates: {r.latitude}, {r.longitude} · {r.country}")
         breakdown=pd.DataFrame({"Dimension":[SCORE_LABELS[k] for k in weights],"Score":[r.get(k) for k in weights],"Weight":[v*100 for v in weights.values()]})
         st.dataframe(breakdown,use_container_width=True,hide_index=True)
         st.metric("Objective-weighted analog index",f"{r.analog_score:.1f}/100" if pd.notna(r.analog_score) else "Not calculable")
@@ -481,12 +481,12 @@ with st.expander("Candidate detail Â· evidence, safeguards and score breakdown
 
 with st.expander("Mission-specific limitations"):
     limits=( ["Earth has a much thicker atmosphere than Mars; pressure and atmospheric composition are not reproduced.","Earth analogs do not reproduce Martian surface radiation exposure or gravity.","Dust behavior, electrostatics and weathering may differ substantially."] if target=="Mars" else ["Earth analogs do not reproduce lunar vacuum, gravity or radiation exposure.","Earth's atmosphere and active hydrological cycle differ fundamentally from the lunar surface.","Thermal cycling and abrasive lunar dust behavior require separate analysis."] )
-    for item in limits: st.write("â€¢ "+item)
+    for item in limits: st.write("• "+item)
 
 if len(filtered):
     export=[c for c in ["rank","site_id","site_name","country","latitude","longitude","analog_score","visual_similarity","terrain_score","geology_score","climate_score","water_score","data_coverage","protected_area","ecology_warning"] if c in filtered.columns]
-    st.download_button("â†“ Export candidate results Â· CSV",filtered[export].to_csv(index=False).encode("utf-8"),"terra_ai_candidate_results.csv","text/csv")
-st.markdown('<div style="text-align:center;padding:22px 0 4px;color:#68859e;font-size:10px;letter-spacing:.12em">TERRA AI Â· PLANETARY ANALOG RESEARCH Â· EVIDENCE BEFORE INFERENCE</div>',unsafe_allow_html=True)
+    st.download_button("↓ Export candidate results · CSV",filtered[export].to_csv(index=False).encode("utf-8"),"terra_ai_candidate_results.csv","text/csv")
+st.markdown('<div style="text-align:center;padding:22px 0 4px;color:#68859e;font-size:10px;letter-spacing:.12em">TERRA AI · PLANETARY ANALOG RESEARCH · EVIDENCE BEFORE INFERENCE</div>',unsafe_allow_html=True)
 
 
 
