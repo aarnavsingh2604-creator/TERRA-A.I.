@@ -1,0 +1,282 @@
+{
+  "project": "TERRA AI",
+  "dataset": "Planetary Topographic Measurements",
+  "record_count": 14,
+  "method": "Nearest containing grid-cell extraction",
+  "measurements": [
+    {
+      "planet": "Mars",
+      "site_name": "Jezero Crater",
+      "latitude": 18.38,
+      "longitude": 77.58,
+      "grid_row": 286,
+      "grid_column": 310,
+      "grid_cell_center": {
+        "latitude": 18.375,
+        "longitude": 77.625
+      },
+      "elevation": -2651.0,
+      "elevation_unit": "metres",
+      "elevation_metres": -2651.0,
+      "reference_surface": "Mars areoid",
+      "source_dataset": "NASA MGS MOLA MEGDR MEGT90N000CB",
+      "grid_resolution": "0.25 degrees",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Mars",
+      "site_name": "Gale Crater",
+      "latitude": -5.4,
+      "longitude": 137.8,
+      "grid_row": 381,
+      "grid_column": 551,
+      "grid_cell_center": {
+        "latitude": -5.375,
+        "longitude": 137.875
+      },
+      "elevation": -893.0,
+      "elevation_unit": "metres",
+      "elevation_metres": -893.0,
+      "reference_surface": "Mars areoid",
+      "source_dataset": "NASA MGS MOLA MEGDR MEGT90N000CB",
+      "grid_resolution": "0.25 degrees",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Mars",
+      "site_name": "Olympus Mons",
+      "latitude": 18.65,
+      "longitude": -133.8,
+      "grid_row": 285,
+      "grid_column": 904,
+      "grid_cell_center": {
+        "latitude": 18.625,
+        "longitude": 226.125
+      },
+      "elevation": 20009.0,
+      "elevation_unit": "metres",
+      "elevation_metres": 20009.0,
+      "reference_surface": "Mars areoid",
+      "source_dataset": "NASA MGS MOLA MEGDR MEGT90N000CB",
+      "grid_resolution": "0.25 degrees",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Mars",
+      "site_name": "Valles Marineris",
+      "latitude": -13.9,
+      "longitude": -59.2,
+      "grid_row": 415,
+      "grid_column": 1203,
+      "grid_cell_center": {
+        "latitude": -13.875,
+        "longitude": 300.875
+      },
+      "elevation": -3699.0,
+      "elevation_unit": "metres",
+      "elevation_metres": -3699.0,
+      "reference_surface": "Mars areoid",
+      "source_dataset": "NASA MGS MOLA MEGDR MEGT90N000CB",
+      "grid_resolution": "0.25 degrees",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Mars",
+      "site_name": "Hellas Planitia",
+      "latitude": -42.4,
+      "longitude": 70.5,
+      "grid_row": 529,
+      "grid_column": 282,
+      "grid_cell_center": {
+        "latitude": -42.375,
+        "longitude": 70.625
+      },
+      "elevation": -6151.0,
+      "elevation_unit": "metres",
+      "elevation_metres": -6151.0,
+      "reference_surface": "Mars areoid",
+      "source_dataset": "NASA MGS MOLA MEGDR MEGT90N000CB",
+      "grid_resolution": "0.25 degrees",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Mars",
+      "site_name": "Elysium Planitia",
+      "latitude": 4.5,
+      "longitude": 135.9,
+      "grid_row": 342,
+      "grid_column": 543,
+      "grid_cell_center": {
+        "latitude": 4.375,
+        "longitude": 135.875
+      },
+      "elevation": -2650.0,
+      "elevation_unit": "metres",
+      "elevation_metres": -2650.0,
+      "reference_surface": "Mars areoid",
+      "source_dataset": "NASA MGS MOLA MEGDR MEGT90N000CB",
+      "grid_resolution": "0.25 degrees",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Mars",
+      "site_name": "Arcadia Planitia",
+      "latitude": 46.0,
+      "longitude": 180.0,
+      "grid_row": 176,
+      "grid_column": 720,
+      "grid_cell_center": {
+        "latitude": 45.875,
+        "longitude": 180.125
+      },
+      "elevation": -4013.0,
+      "elevation_unit": "metres",
+      "elevation_metres": -4013.0,
+      "reference_surface": "Mars areoid",
+      "source_dataset": "NASA MGS MOLA MEGDR MEGT90N000CB",
+      "grid_resolution": "0.25 degrees",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Moon",
+      "site_name": "Mare Tranquillitatis",
+      "latitude": 8.5,
+      "longitude": 31.4,
+      "grid_row": 326,
+      "grid_column": 845,
+      "grid_cell_center": {
+        "latitude": 8.375,
+        "longitude": 31.375
+      },
+      "elevation": -0.935,
+      "elevation_unit": "kilometres",
+      "elevation_metres": -935.0,
+      "reference_surface": "Lunar reference radius 1737.4 km",
+      "source_dataset": "NASA LOLA global elevation TIFF",
+      "grid_resolution": "4 pixels per degree",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Moon",
+      "site_name": "Oceanus Procellarum",
+      "latitude": 18.4,
+      "longitude": -57.4,
+      "grid_row": 286,
+      "grid_column": 490,
+      "grid_cell_center": {
+        "latitude": 18.375,
+        "longitude": -57.375
+      },
+      "elevation": -2.155,
+      "elevation_unit": "kilometres",
+      "elevation_metres": -2155.0,
+      "reference_surface": "Lunar reference radius 1737.4 km",
+      "source_dataset": "NASA LOLA global elevation TIFF",
+      "grid_resolution": "4 pixels per degree",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Moon",
+      "site_name": "Tycho Crater",
+      "latitude": -43.3,
+      "longitude": -11.2,
+      "grid_row": 533,
+      "grid_column": 675,
+      "grid_cell_center": {
+        "latitude": -43.375,
+        "longitude": -11.125
+      },
+      "elevation": -2.999,
+      "elevation_unit": "kilometres",
+      "elevation_metres": -2999.0,
+      "reference_surface": "Lunar reference radius 1737.4 km",
+      "source_dataset": "NASA LOLA global elevation TIFF",
+      "grid_resolution": "4 pixels per degree",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Moon",
+      "site_name": "Copernicus Crater",
+      "latitude": 9.7,
+      "longitude": -20.1,
+      "grid_row": 321,
+      "grid_column": 639,
+      "grid_cell_center": {
+        "latitude": 9.625,
+        "longitude": -20.125
+      },
+      "elevation": -3.4925,
+      "elevation_unit": "kilometres",
+      "elevation_metres": -3492.5,
+      "reference_surface": "Lunar reference radius 1737.4 km",
+      "source_dataset": "NASA LOLA global elevation TIFF",
+      "grid_resolution": "4 pixels per degree",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Moon",
+      "site_name": "Mare Imbrium",
+      "latitude": 32.8,
+      "longitude": -15.6,
+      "grid_row": 228,
+      "grid_column": 657,
+      "grid_cell_center": {
+        "latitude": 32.875,
+        "longitude": -15.625
+      },
+      "elevation": -2.287,
+      "elevation_unit": "kilometres",
+      "elevation_metres": -2287.0,
+      "reference_surface": "Lunar reference radius 1737.4 km",
+      "source_dataset": "NASA LOLA global elevation TIFF",
+      "grid_resolution": "4 pixels per degree",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Moon",
+      "site_name": "South Pole-Aitken Basin",
+      "latitude": -53.0,
+      "longitude": 169.0,
+      "grid_row": 572,
+      "grid_column": 1396,
+      "grid_cell_center": {
+        "latitude": -53.125,
+        "longitude": 169.125
+      },
+      "elevation": -4.0595,
+      "elevation_unit": "kilometres",
+      "elevation_metres": -4059.5,
+      "reference_surface": "Lunar reference radius 1737.4 km",
+      "source_dataset": "NASA LOLA global elevation TIFF",
+      "grid_resolution": "4 pixels per degree",
+      "measurement_status": "MEASURED_FROM_GRID"
+    },
+    {
+      "planet": "Moon",
+      "site_name": "Aristarchus Plateau",
+      "latitude": 23.7,
+      "longitude": -47.4,
+      "grid_row": 265,
+      "grid_column": 530,
+      "grid_cell_center": {
+        "latitude": 23.625,
+        "longitude": -47.375
+      },
+      "elevation": -3.2145,
+      "elevation_unit": "kilometres",
+      "elevation_metres": -3214.5,
+      "reference_surface": "Lunar reference radius 1737.4 km",
+      "source_dataset": "NASA LOLA global elevation TIFF",
+      "grid_resolution": "4 pixels per degree",
+      "measurement_status": "MEASURED_FROM_GRID"
+    }
+  ],
+  "scientific_notes": [
+    "Mars elevations are relative to the Martian areoid.",
+    "Moon elevations are relative to a 1737.4 km reference radius.",
+    "Mars and Moon elevation reference surfaces are different.",
+    "Grid measurements are not proof of landing-site suitability.",
+    "Mars grid cells may contain interpolated measurements.",
+    "No suitability scores are calculated by this extraction."
+  ]
+}
