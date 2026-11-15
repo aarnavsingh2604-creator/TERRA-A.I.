@@ -232,7 +232,7 @@ with left:
     if len(filtered):
         for _,r in filtered.head(3).iterrows():
             assessed = pd.notna(r.analog_score)
-            status = f"RANK {int(r['rank']):02d}" if assessed else "NOT ASSESSED"
+            status = f"RANK {int(r['rank']):02d}" if assessed else "DISCOVERY CANDIDATE"
             score = (
                 f'<span class="big-value">{r.analog_score:.1f}'
                 '<span style="font-size:11px;color:#89a9c2"> /100</span></span>'

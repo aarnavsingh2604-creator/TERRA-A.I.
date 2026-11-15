@@ -42,7 +42,7 @@ def write_frontend_candidates(candidates, output_path):
                 ),
                 "summary": c.get(
                     "summary",
-                    "Discovery-stage candidate. Scientific dimensions remain unassessed."
+                    "Earth analog candidate. Scientific evaluation is pending."
                 )
             }
             writer.writerow(row)
