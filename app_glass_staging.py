@@ -410,8 +410,33 @@ with bottom2:
     query=st.text_input("Imagery search",value="Atacama Desert",label_visibility="collapsed",key="nasa_img_q")
     if st.button("Search NASA Images",use_container_width=True):
         try:
-            ir=requests.get(f"{BACKEND1_URL}/api/imagery/search",params={"target":target,"q":query,"page_size":6},timeout=45);ir.raise_for_status();st.session_state["nasa_img_results"]=ir.json().get("items",[])
-        except requests.RequestException as exc: st.error(f"NASA Images search failed: {exc}")
+            ir = requests.get(
+                "https://images-api.nasa.gov/search",
+                params={"q": query, "media_type": "image", "page_size": 6},
+                timeout=45
+            )
+            ir.raise_for_status()
+            nasa_items = ir.json().get("collection", {}).get("items", [])
+            nasa_results = []
+
+            for result in nasa_items:
+                metadata = (result.get("data") or [{}])[0]
+                links = result.get("links") or []
+                preview = next(
+                    (link.get("href") for link in links if link.get("rel") == "preview"),
+                    None
+                )
+                if preview:
+                    nasa_results.append({
+                        "title": metadata.get("title", "NASA image"),
+                        "preview_url": preview
+                    })
+
+            st.session_state["nasa_img_results"] = nasa_results
+            if not nasa_results:
+                st.info("No NASA images found. Try another search.")
+        except requests.RequestException as exc:
+            st.error(f"NASA Images search failed: {exc}")
     imgs=st.session_state.get("nasa_img_results",[])
     if imgs:
         imgcols=st.columns(min(3,len(imgs)))
