@@ -1,3 +1,4 @@
+﻿import os
 from pathlib import Path
 from flask import Flask, request, jsonify, Response
 from flask_cors import CORS
@@ -246,4 +247,5 @@ def too_large(_error):
     return jsonify({"error": "Request too large"}), 413
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=5001, debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5001)), debug=False)
+
