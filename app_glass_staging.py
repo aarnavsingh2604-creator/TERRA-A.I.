@@ -237,7 +237,7 @@ with left:
                 f'<span class="big-value">{r.analog_score:.1f}'
                 '<span style="font-size:11px;color:#89a9c2"> /100</span></span>'
                 if assessed else
-                '<span class="big-value" style="font-size:17px">PENDING</span>'
+                '<span class="big-value" style="font-size:17px">AWAITING DATA</span>'
             )
             location = (
                 f"{r.latitude:.2f}?, {r.longitude:.2f}?"
@@ -487,6 +487,7 @@ if len(filtered):
     export=[c for c in ["rank","site_id","site_name","country","latitude","longitude","analog_score","visual_similarity","terrain_score","geology_score","climate_score","water_score","data_coverage","protected_area","ecology_warning"] if c in filtered.columns]
     st.download_button("â†“ Export candidate results Â· CSV",filtered[export].to_csv(index=False).encode("utf-8"),"terra_ai_candidate_results.csv","text/csv")
 st.markdown('<div style="text-align:center;padding:22px 0 4px;color:#68859e;font-size:10px;letter-spacing:.12em">TERRA AI Â· PLANETARY ANALOG RESEARCH Â· EVIDENCE BEFORE INFERENCE</div>',unsafe_allow_html=True)
+
 
 
 
